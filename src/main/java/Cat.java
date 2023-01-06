@@ -1,6 +1,6 @@
 public class Cat {
     String name;
-    private int age;
+    final private int age;
 
     public void meow() {
         System.out.println("Meow!");
